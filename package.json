@@ -9,9 +9,6 @@
     "dev": "nodemon app.js"
   },
   "type": "module",
-  "engines": {
-    "node": "16.x"
-  },
   "author": "Prajjawal Khandelwal",
   "license": "MIT",
   "dependencies": {
