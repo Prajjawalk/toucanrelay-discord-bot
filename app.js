@@ -72,7 +72,7 @@ app.post('/interactions', async function (req, res) {
       proofData["receiverAddress"] = receiverAddress;
       console.log(proofData)
 
-      const txResp = await fetch(`${TOUCAN_RELAY_SERVER}/api/discordbot`, {
+      const txResp = await fetch(`${process.env.TOUCAN_RELAY_SERVER}/api/discordbot`, {
         "method": "POST",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
